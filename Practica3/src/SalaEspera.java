@@ -177,6 +177,5 @@ public class SalaEspera implements Serializable {
      * @param index posició (de 0 a quantitat-1)
      * @return el pacient d'aquesta posició
      */
-    
     public Pacient getPacient(int index) { return pacients[index]; }
 }
